@@ -11,6 +11,14 @@ const userSchema = mongoose.Schema({
         type:String,
         required:true,
     },
+    // online:{
+    //     type:Boolean,
+    //     default:true,
+    // },
+    // blacklisted:{
+    //     type:Boolean,
+    //     default:false,
+    // },
 },{
     timestamps:true,
 })
